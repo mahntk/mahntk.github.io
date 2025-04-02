@@ -4,9 +4,9 @@ date: 2025-02-25
 summary: "Ein Machine-Learning-Projekt zur Vorhersage der Überlebenschancen von Titanic-Passagieren mit Fokus auf Datenanalyse, Feature Engineering und Modellauswahl."
 tags: [Machine Learning, KI, Python, Scikit-Learn, Titanic]
 categories: [KI-Projekt]
-thumbnail: https://mahntk.github.io/uploads/titanic.jpg
+thumbnail: uploads/titanic.jpg
 links:
-  - icon: kaggle
+  - icon: brands/kaggle
     icon_pack: fab
     name: Titanic Dataset (Kaggle)
     url: https://www.kaggle.com/competitions/titanic/overview

@@ -32,7 +32,7 @@ profiles:
     label: E-mail Me
   - icon: brands/instagram
     url: https://www.instagram.com/mahntk
-  - icon: fab/gitlab
+  - icon: brands/gitlab
     url: https://gitlab.com/mahntk
   - icon: brands/github
     url: https://github.com/mahntk
