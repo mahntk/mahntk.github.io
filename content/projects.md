@@ -36,7 +36,7 @@ Es wurden drei verschiedene Algorithmen implementiert:
 
 #### 📊 Visualisierung:
 
-![Modellvergleich](/static/uploads/modellvergleich_gridsearch.png)
+![Modellvergleich](https://mahntk.github.io/uploads/modellvergleich_gridsearch.png)
 
 ![Überlebensrate](/static/uploads/ueberlebensrate.png)
 
