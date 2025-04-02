@@ -12,11 +12,16 @@ sections:
     content:
       username: admin
       text: |
-        👋 Hallo! Ich bin **Amirmahan Tajik**, Informatikstudent an der TU Clausthal mit einem besonderen Interesse an **Künstlicher Intelligenz**, **IT-Sicherheit** und **Softwareentwicklung**.
+              👋 Hallo! Ich bin Amirmahan Tajik, Informatikstudent an der Technischen Universität Clausthal.
+              Ich interessiere mich besonders für die spannenden und zukunftsweisenden Themen Künstliche Intelligenz, IT-Sicherheit und Softwareentwicklung. Mein Ziel ist es, durch kreative Ideen und technisches Know-how moderne, leistungsstarke und sichere Anwendungen zu entwickeln, die einen echten Mehrwert schaffen.
 
-        In meiner Freizeit programmiere ich leidenschaftlich gerne, spiele Tischtennis, gehe spazieren und höre Musik. 🚀
+              💻 Schon während meines Studiums habe ich an verschiedenen Projekten gearbeitet – von kleinen Tools bis hin zu komplexeren Anwendungen. Dabei liebe ich es, neue Technologien zu entdecken, Probleme zu analysieren und elegante Lösungen zu entwerfen.
 
-        Auf dieser Seite findest du meine Projekte, Publikationen und mehr!
+              🎯 Besonders fasziniert mich der Bereich der Künstlichen Intelligenz, da er das Potenzial hat, viele Aspekte unseres Lebens grundlegend zu verändern – von der Medizin bis zur Mobilität. Ebenso begeistert mich die IT-Sicherheit, denn in einer zunehmend vernetzten Welt ist Datenschutz wichtiger denn je.
+
+              🌱 Neben dem Studium programmiere ich mit großer Leidenschaft in meiner Freizeit, lerne ständig Neues dazu und tausche mich gern mit Gleichgesinnten aus. Außerdem spiele ich Tischtennis, gehe gern spazieren und höre Musik, um den Kopf freizubekommen und neue Inspiration zu finden.
+
+              🚀 Auf dieser Webseite findest du einen Einblick in meine Projekte, Publikationen und Interessen. Viel Spaß beim Stöbern!
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -44,17 +49,17 @@ sections:
     design:
       columns: '1'
 
-  - block: collection
-    content:
-      title: Selected Projects
-      text: Hier findest du eine Auswahl meiner Projekte aus Studium und Freizeit.
-      filters:
-        folders:
-          - project
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 3
+#  - block: collection
+ #   content:
+  #    title: Selected Projects
+   #   text: Hier findest du eine Auswahl meiner Projekte aus Studium und Freizeit.
+    #  filters:
+     #   folders:
+      #    - project
+#    design:
+#      view: article-grid
+#      fill_image: false
+#      columns: 3
 
   - block: collection
     content:
@@ -68,14 +73,15 @@ sections:
 
   - block: cta-card
     content:
-      title: Kontaktieren Sie mich!
-      text: |
-        Du hast eine Frage, ein Projekt oder möchtest einfach nur Hallo sagen?  
-        Ich bin immer offen für spannende Gespräche rund um KI, Security und Coding!
+      title: Kontakt
+      text: | 
+        Ich freue mich über jede Nachricht – egal ob per Mail oder auf LinkedIn.
+        
+        📧 **E-Mail:** [amirmahantajik991@gmail.com](mailto:amirmahantajik991@gmail.com)  
+        🔗 **LinkedIn:** [Profil ansehen](https://www.linkedin.com/in/amirmahan-tajik-5192a3288/)
       button:
-        text: LinkedIn-Profil
-        url: https://www.linkedin.com/in/amirmahan-tajik-5192a3288/
+        text: Jetzt kontaktieren
+        url: mailto:amirmahantajik991@gmail.com
     design:
       card:
         css_class: "bg-primary-700"
----

@@ -12,28 +12,40 @@ links:
     url: https://www.kaggle.com/competitions/titanic/overview
 ---
 
-In diesem Projekt wurde der berühmte Titanic-Datensatz verwendet, um ein Klassifikationsmodell zur Vorhersage der Überlebenschancen von Passagieren zu entwickeln.
+### 🧠 Titanic – Machine Learning from Disaster
 
-### 🔍 Ziele
-- Untersuchung von Korrelationen zwischen Merkmalen wie **Geschlecht**, **Alter**, **Ticketklasse** und **Überleben**
-- Umsetzung mehrerer Algorithmen:
-  - **Naive Bayes**
-  - **Logistische Regression**
-  - **K-Nearest Neighbors (KNN)**
+In diesem KI-Projekt habe ich gemeinsam mit meinem Team den berühmten **Titanic-Datensatz** aus Kaggle analysiert, um die **Überlebenswahrscheinlichkeit von Passagieren vorherzusagen**.
 
-### ⚙️ Methoden
-- **Datenvorverarbeitung:** Umgang mit fehlenden Werten (Median, lineare Regression), One-Hot-Encoding, Entfernen irrelevanter Spalten
-- **Feature Engineering:** Erzeugung neuer Merkmale wie `FamilySize`, `IsAloneTicket`, `TicketFrequency`
-- **Modelltraining & Hyperparameter-Tuning:** mit Grid Search optimiert
+#### 🔍 Vorgehensweise:
+- **Datenvorverarbeitung:** Umgang mit fehlenden Werten (Median, lineare Regression), Entfernung irrelevanter Spalten, Umwandlung kategorialer Daten in numerische Form.
+- **Datenanalyse:** Untersuchung der Korrelationen – etwa Geschlecht, Ticketklasse und Preis als starke Prädiktoren für Überleben.
+- **Feature Engineering:** Neue Merkmale wie `FamilySize`, `IsAloneTicket` und `TicketFrequency` wurden erstellt, um die Modellleistung zu verbessern.
 
-### 📊 Ergebnisse
-- Bestes Modell: **KNN mit k=10** – **Accuracy: 83.62%**
-- Logistische Regression: **Accuracy: 80.62%**
-- Naive Bayes: **Accuracy: 78.71%**
+#### 🧪 Modellierung:
+Es wurden drei verschiedene Algorithmen implementiert:
+- **Naive Bayes:** Einfach und schnell, aber sensibel gegenüber Annahmen.
+- **Logistische Regression:** Gute Balance aus Genauigkeit und Interpretierbarkeit.
+- **K-Nearest Neighbors (KNN):** Sehr gute Performance mit optimalem `k` durch Grid Search.
 
-### 📚 Learnings
-- Feature Engineering hatte signifikanten Einfluss auf die Modellqualität.
-- Modelle mit klarer Interpretierbarkeit (z. B. logistische Regression) sind für solche Datensätze gut geeignet.
-- Weitere Verbesserungen wären mit Random Forest oder Ensemble-Methoden möglich.
+#### ⚙️ Ergebnisse:
+| Modell                | Genauigkeit |
+|-----------------------|-------------|
+| **KNN (k=10)**        | **83.62 %** |
+| Logistische Regression| 80.62 %     |
+| Naive Bayes           | 78.71 %     |
 
-> Projektteam: Amirmahan Tajik, Christian Reikischke, Helene Nicolai, Marharyta Horak, Merna Mohsen
+#### 📊 Visualisierung:
+
+![Modellvergleich vor und nach Grid Search](images/Modellvergleich vor&nach grid.png)
+
+![Überlebensrate](images/Überlebemsrate.png)
+
+![Korrelationen](images/korelation.png)
+
+#### 📚 Learnings:
+- **Feature Engineering** hatte einen großen Einfluss auf die Modellqualität.
+- **KNN** zeigte das beste Ergebnis mit sorgfältiger Merkmalsauswahl und Tuning.
+- Weitere Verbesserungen wären durch Modelle wie **Random Forests** oder **Ensemble-Methoden** möglich.
+
+> 👥 Team: Amirmahan Tajik, Christian Reikischke, Helene Nicolai, Marharyta Horak, Merna Mohsen  
+> 🔗 [Zum Datensatz auf Kaggle](https://www.kaggle.com/competitions/titanic/overview)
