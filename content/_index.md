@@ -45,7 +45,7 @@ sections:
 
         Ziel war es, die **Überlebenswahrscheinlichkeit von Passagieren vorherzusagen**. Besonderes Augenmerk lag auf Feature Engineering, Hyperparameter-Tuning und Modellauswahl.  
         
-        👉 [Zum Projekt](projects/titanic-ml)
+        👉 [Zum Projekt](project/projects.md)
     design:
       columns: '1'
 
@@ -76,13 +76,14 @@ sections:
       title: Kontakt
       text: | 
         Ich freue mich über jede Nachricht – egal ob per Mail oder auf LinkedIn.
-        
-        📧 **E-Mail:** [amirmahantajik991@gmail.com](mailto:amirmahantajik991@gmail.com)  
-        🔗 **LinkedIn:** [Profil ansehen](https://www.linkedin.com/in/amirmahan-tajik-5192a3288/)
-      button:
-        text: Jetzt kontaktieren
-        url: mailto:amirmahantajik991@gmail.com
+
+        <span class="text-white">📧 <strong>E-Mail:</strong></span> <a class="text-emerald-500 underline" href="mailto:amirmahantajik991@gmail.com">amirmahantajik991@gmail.com</a>  
+        <span class="text-white">🔗 <strong>LinkedIn:</strong></span> <a class="text-emerald-500 underline" href="https://www.linkedin.com/in/amirmahan-tajik-5192a3288/">Profil ansehen</a>
+    button:
+      text: Jetzt kontaktieren
+      url: mailto:amirmahantajik991@gmail.com
     design:
       card:
         css_class: "bg-primary-700"
+
 ---
