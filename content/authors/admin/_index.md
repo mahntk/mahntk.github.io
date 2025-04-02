@@ -2,7 +2,6 @@
 # Display name
 title: Amirmahan Tajik
 
-
 # Full name (for SEO)
 first_name: Amirmahan 
 last_name: Tajik
@@ -39,7 +38,6 @@ profiles:
     url: https://github.com/mahntk
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/amirmahan-tajik-5192a3288/
-
 
 interests:
   - Artificial Intelligence (AI)
@@ -81,43 +79,33 @@ skills:
         icon: code-bracket
       - name: Java
         description: ''
-
         icon: code-bracket
       - name: SQL
         description: ''
-
         icon: circle-stack
       - name: C/C++
         description: ''
-
         icon: code-bracket
       - name: RISC-V Assembly
         description: ''
-
         icon: code-bracket
 
   - name: Tools & Frameworks
     items:
       - name: Git/GitHub/GitLab
         description: ''
-
         icon: git-branch
       - name: PyTorch, TensorFlow, scikit-learn
         description: ''
-
         icon: chart-bar
       - name: OpenGL
         description: ''
-
         icon: cube
 
 languages:
   - name: Deutsch C2
-
   - name: Englisch B1
-
   - name: Persisch Muttersprache
-
 
 awards: []
 
@@ -146,3 +134,4 @@ projects:
   - title: Computergraphik-Netzdesign
     summary: |
       Erstellung eines 3D-Netzdesigns in C++ als Teil der Einführung in Computergrafik.
+---
