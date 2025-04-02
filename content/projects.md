@@ -49,3 +49,4 @@ Es wurden drei verschiedene Algorithmen implementiert:
 
 > 👥 Team: Amirmahan Tajik, Christian Reikischke, Helene Nicolai, Marharyta Horak, Merna Mohsen  
 > 🔗 [Zum Datensatz auf Kaggle](https://www.kaggle.com/competitions/titanic/overview)
+---
