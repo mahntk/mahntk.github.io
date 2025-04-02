@@ -6,22 +6,18 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: emerald  # Du kannst hier z.B. auch "blue", "rose", "indigo" etc. verwenden
 
-# SEO
+# SEO & Marketing
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    org_name: 'Technische Universität Clausthal'
+    description: 'Portfolio von Amirmahan Tajik – Informatikstudent mit Fokus auf KI, IT-Sicherheit und Softwareentwicklung.'
+    twitter: 'mahntk'
   analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
+    google_analytics: ''  # Hier kannst du eine ID einfügen, wenn du Analytics nutzt
   verification:
     google: ''
     baidu: ''
@@ -35,12 +31,12 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Amirmahan Tajik"  # 👈 Dein Name oben links auf der Website
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Amirmahan Tajik. Dieses Werk ist lizenziert unter {license}.'
     license:
       enable: true
       allow_derivatives: false
@@ -49,12 +45,12 @@ footer:
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '02. Jan 2006'
+  time_format: '15:04'
 
 # Site features
 features:
   math:
     enable: false
   privacy_pack:
-    enable: false
+    enable: true  # Gut für Datenschutz (z. B. Cookie-Hinweise etc.)
