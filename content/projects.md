@@ -4,7 +4,7 @@ date: 2025-02-25
 summary: "Ein Machine-Learning-Projekt zur Vorhersage der Überlebenschancen von Titanic-Passagieren mit Fokus auf Datenanalyse, Feature Engineering und Modellauswahl."
 tags: [Machine Learning, KI, Python, Scikit-Learn, Titanic]
 categories: [KI-Projekt]
-thumbnail: /static/uploads/titanic.jpg
+thumbnail: https://mahntk.github.io/uploads/titanic.jpg
 links:
   - icon: kaggle
     icon_pack: fab
@@ -38,9 +38,9 @@ Es wurden drei verschiedene Algorithmen implementiert:
 
 ![Modellvergleich](https://mahntk.github.io/uploads/modellvergleich_gridsearch.png)
 
-![Überlebensrate](/static/uploads/ueberlebensrate.png)
+![Überlebensrate](https://mahntk.github.io/uploads/ueberlebensrate.png)
 
-![Korrelationen](/static/uploads/korrelation.png)
+![Korrelationen](https://mahntk.github.io/uploads/korrelation.png)
 
 
 
